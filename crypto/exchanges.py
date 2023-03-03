@@ -1,7 +1,7 @@
 import ccxt
 
 exchanges = {
-    'binance': ccxt.binance(),
-    'kucoin': ccxt.kucoin2(),
-    'bittrex': ccxt.bittrex(),
+    'binance': ccxt.binanceus(),
+    #'kucoin': ccxt.kucoin(),
+    #'bittrex': ccxt.bittrex(),
 }

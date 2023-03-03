@@ -71,6 +71,7 @@ def get_crypto_prices(coin_set, convert='USD'):
             new_coin_set = coin_set - set(not_avail_coins)
             output = get_crypto_prices(new_coin_set, convert)
         else:
+            print(response)
             raise ConnectionError
 
     return output
